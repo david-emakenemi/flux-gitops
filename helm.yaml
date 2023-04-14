@@ -65,5 +65,3 @@ spec:
   enableTracing: true  
   logLevel: debug,hyper=off,kube_client=off,tower=off,conhash=off,h2=off
   enableSelfCheck: false
-
-  
