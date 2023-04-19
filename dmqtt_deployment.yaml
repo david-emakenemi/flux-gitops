@@ -8,11 +8,11 @@ spec:
   image:
     pullPolicy: Always
     repository: e4kpreview.azurecr.io/dmqtt-pod
-    tag: 0.3.0
+    tag: 0.3.0-rc2
   authImage:
     pullPolicy: Always
     repository: e4kpreview.azurecr.io/dmqtt-authentication
-    tag: 0.3.0
+    tag: 0.3.0-rc2
 ---
 apiVersion: az-edge.com/v1alpha1
 kind: BrokerListener
