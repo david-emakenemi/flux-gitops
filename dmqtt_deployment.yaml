@@ -22,7 +22,7 @@ metadata:
 spec:
   brokerRef: "my-broker"
   authenticationEnabled: false
-  authorizationEnabled: false
+  authorizationEnabled: true
   port: 1883
 ---
 apiVersion: az-edge.com/v1alpha1
